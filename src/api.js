@@ -1,6 +1,5 @@
 const KEY = "pm_api_key";
-const API_BASE =
-  "https://prof-mailer-geh8gqhrdkhvgcaj.centralindia-01.azurewebsites.net";
+const API_BASE = "https://prof-mailer.onrender.com";
 export const getKey = () => localStorage.getItem(KEY) || "";
 export const setKey = (k) => localStorage.setItem(KEY, k);
 
